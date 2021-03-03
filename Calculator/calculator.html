@@ -1,0 +1,43 @@
+<html>
+    <title>
+        Prashant Jhim
+    </title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <body>
+        <h1 id = 'heading'>Prashant Jhim</h1>
+        <div id = 'container'>
+            <div id = 'text'>Simple Calculator</div>
+
+            <div id = 'result' >
+                <input id = 'Data' type="text">
+
+            </div>
+            <div id = 'numbers'>
+                <input id = 'button' onclick="Clear()" type="button" value="C">
+                <input id = 'button' onclick="Delete" type="button" value="Del">
+                <input id = 'button' onclick="Solve()" type="button" value="=">
+                <input id = 'button' type="button"  onclick="Add('/')" value="/">
+    
+                <br/>
+                <input id= 'button' type="button" onclick="Add(9)" value="9">
+                <input id= 'button' type="button" onclick="Add(8)" value="8">
+                <input id= 'button' type="button" onclick="Add(7)" value="7" >
+                <input id = 'button' type="button" onclick="Add('+')" value="+">
+                <br/>
+                <input id= 'button' type="button" onclick="Add(6)" value="6">
+                <input id= 'button' type="button" onclick="Add(5)" value="5">
+                <input id= 'button' type="button" onclick="Add(4)" value="4" >
+                <input id = 'button' type="button"  onclick="Add('-')"  value="-">
+                <br/>
+                <input id= 'button' type="button" onclick="Add(3)" value="3">
+                <input id= 'button' type="button" onclick="Add(2)" value="2">
+                <input id= 'button' type="button" onclick="Add(1)" value="1" >
+                <input id = 'button' type="button" onclick="Add('*')" value="X">
+    
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
